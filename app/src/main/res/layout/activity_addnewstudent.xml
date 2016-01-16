@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="30dp"
+    tools:context=".Addnewstudent">
+
+    <EditText
+        android:id="@+id/edtIdST"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="Mã sv" />
+
+    <EditText
+        android:id="@+id/edtNameST"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="Tên Sv" />
+
+    <EditText
+        android:id="@+id/edtMarkST"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="Đểm số"
+        android:inputType="numberDecimal" />
+
+    <!--<EditText-->
+        <!--android:id="@+id/edtAge"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="16dp"-->
+
+        <!--android:layout_marginRight="16dp"-->
+        <!--android:hint="" />-->
+
+
+    <Button
+        android:id="@+id/btnAddST"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Thêm Sinh viên" />
+
+</LinearLayout>
